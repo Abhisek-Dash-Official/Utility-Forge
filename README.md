@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Utility Forge (PreCollege Repo)
+
+**Utility Forge** is a collection of essential, no-nonsense tools — from calculators to converters — designed with simplicity and speed in mind. No ads, no distractions, just pure utility.
+
+## Features
+
+- **Age Calculator** – Quickly find your exact age
+- **Currency Converter** – Real-time exchange rate conversions
+- **Mathematical Calculator** – Supports both simple and scientific operations
+- **Unit Converter** – Convert length, weight, volume, and more
+- **Password Generator** – Secure your digital life with strong passwords
+- **Color Picker** – Convert and pick HEX, RGB, HSL values
+- **Weather Info** – Fetch current weather by location or city
+- **Multi-Timezone Clock** – View analog and digital clocks across major countries
+- **Dev To-Do** – Manage tasks with tags, dark mode, and snippet support
+
+## Tech Stack
+
+- **Frontend**: React.js, Tailwind CSS
+- **Utilities**: Moment-Timezone, OpenWeather API (or any applicable APIs)
+- **Deployment**: Vercel / Netlify (your choice)
 
 ## Getting Started
 
-First, run the development server:
-
-```bash
+```
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Folder Structure
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```
+utility-forge/
+│
+├── public/
+│   └── assets/
+│       ├── images/
+│       └── icons/
+│
+├── src/
+│   └── app/
+│       ├── components/                 # Reusable Header/Footer
+│       ├── age-calculator/             # Age calculator tool
+│       ├── color-picker/               # Color picker tool
+│       ├── currency-convertor/         # Currency conversion tool
+│       ├── dev-to-do/                  # Developer task manager
+│       ├── mathematical-calculator/    # Standard calculator
+│       ├── multi-time-zone-clock/      # Clock supporting time zones
+│       ├── password-generator/         # Secure password creator
+│       ├── unit-convertor/             # Unit conversion tool
+│       ├── weather-info/               # Real-time weather viewer
+│       ├── global.css
+│       ├── layout.js
+│       ├── not-found.js
+│       └── page.js
+│
+├── .gitignore
+├── jsconfig.json
+├── next.config.mjs
+├── package.json
+├── package-lock.json
+├── postcss.config.mjs
+└── README.md
+```
