@@ -1,0 +1,17 @@
+.scrollArea {
+    overflow-y: auto;
+    max-height: 400px;
+}
+
+.scrollArea::-webkit-scrollbar {
+    width: 8px;
+}
+
+.scrollArea::-webkit-scrollbar-track {
+    background: #1f1f1f;
+}
+
+.scrollArea::-webkit-scrollbar-thumb {
+    background: #9333ea;
+    border-radius: 8px;
+}
