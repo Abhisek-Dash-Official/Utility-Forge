@@ -18,7 +18,6 @@
 
 - **Frontend**: React.js, Tailwind CSS
 - **Utilities**: Moment-Timezone, OpenWeather API (or any applicable APIs)
-- **Deployment**: Vercel / Netlify (your choice)
 
 ## Getting Started
 
